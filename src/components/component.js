@@ -24,16 +24,6 @@ const data = {
           url: "https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b",
           width: 640
         },
-        {
-          height: 300,
-          url: "https://i.scdn.co/image/ab67616d00001e02e8b066f70c206551210d902b",
-          width: 300
-        },
-        {
-          height: 64,
-          url: "https://i.scdn.co/image/ab67616d00004851e8b066f70c206551210d902b",
-          width: 64
-        }
       ],
       name: "Bohemian Rhapsody (The Original Soundtrack)",
       release_date: "2018-10-19",
@@ -68,11 +58,13 @@ const data = {
     is_local: false,
     is_playable: true,
     name: "Bohemian Rhapsody",
+    artist: "Queen",
+    images: "https://i.scdn.co/image/ab67616d0000b273e8b066f70c206551210d902b",
     popularity: 72,
     preview_url: null,
     track_number: 7,
     type: "track",
     uri: "spotify:track:3z8h0TU7ReDPLIbEnYhWZb"
   };
-  
+
   export default data;
