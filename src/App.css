@@ -1,10 +1,20 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
-.Album-img {
-  height: 40vmin;
-  pointer-events: none;
+.Header {
+  text-align:left;
+  margin-top:50px;
+  margin-left: 30px;
+  font-size: 40px;
+}
+.title {
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+.image {
+  margin-left:30px;
 }
 
 .App-header {
@@ -12,18 +22,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight:lighter;
 }
 
 button {

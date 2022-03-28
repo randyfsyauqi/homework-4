@@ -1,18 +1,17 @@
-import React from 'react'
-import data from '../../components/component.js'
+function Row ({name, artists, images, album, url}) {
+  return (
+     <tr>
+          <td><img src={images} className="image" alt="images"></img></td>
+          <td>
+            <p className="title">{name}</p>
+            <p className="artist">{artists}</p>
+            <p className="album">{album}</p>
 
-class Home extends React.Component{
-  render(){
-    return (
-      <div>
-        <img src={data.images} className="Album-img" alt="img"/>
-        <h1>{data.name}</h1>
-        <h2>{data.artist}</h2>
-        <button>Select</button>
-      </div>
-    )
-  }
-} 
+          </td>
+          <td><button>Select</button></td>
+     </tr>
+  )
+}
 
-export default Home;
+export default Row;
 
